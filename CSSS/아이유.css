@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Caveat', cursive;
+    background-color: #f2a07b;
+}
+
+.iu {
+    width: 200px;
+}
+
+.list {
+    border: 1px solid black;
+    display: inline-block;    
+}
+
+.list ol {
+    margin: 20px;
+}
+
+.list ol li {
+    padding: 2px;
+}
+.listPro {
+    display: flex;
+    justify-content: space-between;
+}

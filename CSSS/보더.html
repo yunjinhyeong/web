@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>보더</title>
+    <style>
+        body{
+            /* 초기화: 패딩 마진 0 */
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            /* 폰트 사이즈를 2배로 */
+            font-size: 2em;
+        }
+
+        .box {
+            margin: 10px;
+            background: lightgray;
+            width: 250px;
+            padding-top: 20px;
+            text-align: center;
+            display: inline-block;
+            height: 200px;
+        }
+
+        .box1{ border: none;}
+        .box2{ border: 5px hidden red;}
+        .box3{ border: 5px solid orange;}
+        .box4{ border: 5px dashed blueviolet;}
+        .box5{ border: 5px dotted cornflowerblue;}
+        .one{
+            border-radius: 10px;
+            border-color: yellowgreen;
+        }
+
+        .two{
+            border-radius: 10px;
+            border: 3px solid yellow;
+        }
+        
+        .three{
+            border-radius: 5px 100px 5px 10px ;
+        }
+    </style>
+</head>
+<body>
+    <div class="box box1">box1</div>
+    <div class="box box2">box2</div>
+    <div class="box box3">box3</div>
+    <div class="box box4">box4</div>
+    <div class="box box5">box5</div>
+    <div class="box one">one</div>
+    <div class="box two">two</div>
+    <div class="box three">three</div>
+</body>
+</html>

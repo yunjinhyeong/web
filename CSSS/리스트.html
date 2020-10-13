@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>리스트</title>
+    <style>
+        .myList {
+            list-style: none;
+            margin: 0px;
+            padding: 0px;
+        }
+        .myList li {
+            padding: 5px;
+            margin-bottom: 5px;
+            border-bottom: 1px solid black;
+        }
+        ul.myList li {
+            color: rebeccapurple;
+        }
+        /* first - child, last-child, nth-child 선택자 */
+        ol.myList li:nth-child(1){
+            border-bottom: 0px;
+        }
+        a {
+            color: chartreuse;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: pink;
+            background-color: purple;
+        }
+        a:active {
+            color: skyblue;
+        }
+        .button {
+            padding: 15px 30px;
+            text-align: center;
+            border-radius: 4px;
+            color: slateblue;
+        }
+    </style>
+</head>
+<body>
+    <ul class="myList">
+        <li>순서 없는 목록은 아이템</li>
+        <li>순서 없는 목록은 아이템</li>
+        <li>순서 없는 목록은 아이템</li>
+        <li>순서 없는 목록은 아이템</li>
+        <li>순서 없는 목록은 아이템</li>
+    </ul>
+
+    <ol class="myList">
+        <li>순서 있는 목록은 아이템</li>
+        <li>순서 있는 목록은 아이템</li>
+        <li>순서 있는 목록은 아이템</li>
+        <li>순서 있는 목록은 아이템</li>
+        <li>순서 있는 목록은 아이템</li>
+    </ol>
+    <!-- a 링크 -->
+    <a href="#">Text Link</a>
+    <!-- button -->
+    <a href=""></a>
+    <button class="button">나버튼</button>
+</body>
+</html>

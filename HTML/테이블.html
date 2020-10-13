@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>테이블</title>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <th>1행 1열</th>
+            <th>1행 2열</th>
+            <th>1행 3열</th>
+        </tr>
+        <tr>
+            <td>2행 1열</td>
+            <td>2행 2열</td>
+            <td>2행 3열</td>
+        </tr>
+        <tr>
+            <td>3행 1열</td>
+            <td>3행 2열</td>
+            <td>3행 3열</td>
+        </tr>        
+    </table>
+    <br>
+    <hr>
+    <br>
+    <table border="1">
+        <tr>
+            <th rowspan="2">1행 1열</th>
+            <th colspan="3">1행 2열 합침</th>
+            
+        </tr>
+        <tr>
+            <td rowspan="2">2행 1열</td>
+            <td>2행 2열</td>
+            <td>2행 3열</td>
+        </tr>
+        <tr>
+            <td>3행 1열</td>
+            <td>3행 2열</td>
+            <td>3행 3열</td>
+        </tr>              
+    </table>
+    <br>
+    <hr>
+    <br>
+    <table border="1">
+        <tr>
+            <th>
+                <p>단락입니다</p>
+                <p>단락입니다</p>
+            </th>
+            <th>셀안에 테이블 :
+                <table border="1">
+                    <tr>
+                        <th>1 1</th>
+                        <th>1 2</th>
+                    </tr>
+                    <tr>
+                        <th>2 1</th>
+                        <th>2 2</th>
+                    </tr>
+                </table>
+            </th>            
+        </tr>
+        <tr>
+            <td>셀 안에 리스트:
+                <ul>
+                    <li>사과</li>
+                    <li>바나나</li>
+                    <li>파인애플</li>
+                </ul>
+            </td>
+            <td>안녕하세요</td>
+        </tr>             
+    </table>
+</body>
+</html>

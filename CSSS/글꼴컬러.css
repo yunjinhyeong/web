@@ -1,0 +1,48 @@
+*{
+    font-family: 'Nanum Pen Script', cursive;
+    
+}
+body{
+    text-align: left;
+}
+p{ 
+    color: dodgerblue;
+    font-family: 'Grandstander', cursive;
+}
+h1{
+    font-family: 'Lobster', cursive;
+}
+
+.box{
+    display: inline-block;
+    justify-content: space-around;
+}
+
+.To{
+    display: inline-block;
+    font-size: 30px;
+    font-family: 'Ranchers', cursive;
+    background-color: tomato;
+}
+.Or {
+    display: inline-block;
+    font-size: 30px;
+    padding: 20px;
+    margin: 10px;
+    display: inline-block;
+    background-color: orange;
+}
+.DB {
+    display: inline-block;
+    background-color: dodgerblue;
+}
+.MS {
+    display: inline-block;
+    background-color: mediumseagreen;
+}
+.no {
+    font-size: 30px;
+    color: white;
+    display: inline-block;
+    background-color: #7d0633;
+}
